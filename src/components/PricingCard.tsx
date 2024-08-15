@@ -41,7 +41,7 @@ const PricingCard: React.FC = () => {
             onClick={toggleDarkMode}
             className={`px-4 py-2 rounded ${modeClasses.buttonBg} ${modeClasses.buttonText}`}
           >
-            {darkMode ? <MdLightMode /> : <MdDarkMode />}
+            {darkMode ? <MdDarkMode /> : <MdLightMode />  }
           </button>
         </div>
         <p className={`mt-2 font-semibold text-[16px] ${modeClasses.tableText}`}>
